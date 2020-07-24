@@ -1,26 +1,25 @@
- QUICK START
- -----------
+# QUICK START
  
  This readme serves as a quick start, please use `man monit' for
  documentation on the program.
  
  
- Installation:
- -------------
+## Installation:
  
-   -  ./configure
-   -  make
-   -  make install
-   -  man monit
+ ```
+     ./configure
+     make
+     make install
+     man monit
+ ```
  
- This will install Monit and the man-file in /usr/local/bin and
- /usr/local/man/man1 respectively. If you want another location than
- /usr/local, run configure with the prefix options, like so:
- ./configure --prefix=<dir>
+ This will install Monit and the man-file in `/usr/local/bin` and
+ `/usr/local/man/man1` respectively. If you want another location than
+ `/usr/local`, run configure with the prefix options, like so:
+ `./configure --prefix=<dir>`
  
  
- Notes:
- ------
+## Notes:
  
  - This directory contains an example Monit control file, called
    monitrc. Please read it and use it as a starting point when you
@@ -31,8 +30,8 @@
    NetBSD, OpenBSD and Solaris.
    
   
- License Notes:
- --------------
+## License Notes:
+
  
  This program is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License version 3.
@@ -42,8 +41,7 @@
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the file
  COPYING accompanying the Software for details.
  
- Questions and support:
- ----------------------
+## Questions and support:
  
  If you have questions or comments about the software or documentation 
  please subscribe to the Monit general mailing list and post your 
